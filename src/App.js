@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, HashRouter as Router, Route } from 'react-router-dom';
+import { Switch, BrowserRouter as Router, Route } from 'react-router-dom';
 
 import NavBar from 'components/elements/NavBar';
 import Home from "components/pages/Home";
@@ -7,6 +7,7 @@ import Audi from "components/pages/Audi";
 import Social from "components/pages/Social";
 
 function App() {
+
   return (
     <div className="app">
       <div className="gradient-background__ui01">
