@@ -7,9 +7,9 @@ const NavBar = () => {
             <Grid item lg={12}>
                 <Paper square>
                     <Tabs aria-label="navigation bar">
-                        <Tab href="/" label="Home" />
-                        <Tab href="/audi" label="Audi" />
-                        <Tab href="/socials" label="Social Links" />
+                        <Tab href={process.env.PUBLIC_URL + "/"} label="Home" />
+                        <Tab href={process.env.PUBLIC_URL + "/audi"} label="Audi" />
+                        <Tab href={process.env.PUBLIC_URL + "/socials"} label="Social Links" />
                     </Tabs>
                 </Paper>
             </Grid>
