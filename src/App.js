@@ -17,8 +17,8 @@ function App() {
           </div>
           <Switch>
             <Route path={process.env.PUBLIC_URL + '/'} component={Home}></Route>
-            <Route path={process.env.PUBLIC_URL + "/socials"} component={Social}></Route>
-            <Route path={process.env.PUBLIC_URL + "/audi"} component={Audi}></Route>
+            <Route path={"/socials"} component={Social}></Route>
+            <Route path={"/audi"} component={Audi}></Route>
           </Switch>
         </Router>
       </div>
