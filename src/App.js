@@ -11,14 +11,14 @@ function App() {
   return (
     <div className="app">
       <div className="gradient-background__ui01">
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <div className="app__nav-bar">
             <NavBar />
           </div>
           <Switch>
-            <Route path={process.env.PUBLIC_URL + '/'} component={Home}></Route>
-            <Route path={"/socials"} component={Social}></Route>
-            <Route path={"/audi"} component={Audi}></Route>
+            <Route path="/" component={Home}></Route>
+            <Route path="/socials" component={Social}></Route>
+            <Route path="/audi" component={Audi}></Route>
           </Switch>
         </Router>
       </div>
