@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="app">
       <div className="gradient-background__ui01">
-        <Router basename="scott-macdonald-portfolio/">
+        <Router basename="/scott-macdonald-portfolio">
           <div className="app__nav-bar">
             <NavBar />
           </div>
