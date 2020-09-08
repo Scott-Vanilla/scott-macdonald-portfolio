@@ -8,8 +8,8 @@ const NavBar = () => {
                 <Paper square>
                     <Tabs aria-label="navigation bar">
                         <Tab href={"/"} label="Home" />
-                        <Tab href={"/audi"} label="Audi" />
-                        <Tab href={"/socials"} label="Social Links" />
+                        <Tab href={"/scott-macdonald-portfolio/#/audi"} label="Audi" />
+                        <Tab href={"/scott-macdonald-portfolio/#/socials"} label="Social Links" />
                     </Tabs>
                 </Paper>
             </Grid>
