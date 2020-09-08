@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, BrowserRouter as Router, Route } from 'react-router-dom';
+import { Switch, HashRouter as Router, Route } from 'react-router-dom';
 
 import NavBar from 'components/elements/NavBar';
 import Home from "components/pages/Home";
@@ -11,14 +11,14 @@ function App() {
   return (
     <div className="app">
       <div className="gradient-background__ui01">
-        <Router>
+        <Router basename="/">
           <div className="app__nav-bar">
             <NavBar />
           </div>
           <Switch>
-            <Route path="/" exact component={Home}></Route>
-            <Route path="/socials" exact component={Social}></Route>
-            <Route path="/audi" exact component={Audi}></Route>
+            <Route exact path="/" component={Home}></Route>
+            <Route path="/socials" component={Social}></Route>
+            <Route path="/audi" component={Audi}></Route>
           </Switch>
         </Router>
       </div>
