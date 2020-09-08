@@ -7,7 +7,7 @@ const NavBar = () => {
             <Grid item lg={12}>
                 <Paper square>
                     <Tabs aria-label="navigation bar">
-                        <Tab href={"/"} label="Home" />
+                        <Tab href={"/scott-macdonald-portfolio/"} label="Home" />
                         <Tab href={"/scott-macdonald-portfolio/#/audi"} label="Audi" />
                         <Tab href={"/scott-macdonald-portfolio/#/socials"} label="Social Links" />
                     </Tabs>
