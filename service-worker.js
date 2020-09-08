@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/scott-macdonald-portfolio/precache-manifest.34f8760085706673127be0e6aa1c7f41.js"
+  "/scott-macdonald-portfolio/precache-manifest.c32a812c9d2a9d731ec27cad3631eaa0.js"
 );
 
 self.addEventListener('message', (event) => {
