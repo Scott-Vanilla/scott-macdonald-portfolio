@@ -18,14 +18,11 @@ const NavBar = () => {
             <div className="nav-bar">
               <Tabs centered aria-label="navigation bar">
                 <Tab href={"/scott-macdonald-portfolio/"} label="Home" />
+                <Tab href={"/scott-macdonald-portfolio/#/about"} label="About" />
                 <Tab href={"/scott-macdonald-portfolio/#/clients"} label="Clients" />
                 <Tab
-                  href={"/scott-macdonald-portfolio/#/socials"}
-                  label="Socials"
-                />
-                <Tab
-                  href={"/scott-macdonald-portfolio/#/socials"}
-                  label="Personal"
+                  href={"/scott-macdonald-portfolio/#/projects"}
+                  label="Projects"
                 />
               </Tabs>
             </div>

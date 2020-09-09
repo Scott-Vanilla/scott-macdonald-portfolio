@@ -40,9 +40,6 @@ const AboutSection = ({
                   </a>
                 </h3>
                 <h3>
-                  <a href="https://twitter.com/scottmac_dev">Twitter</a>
-                </h3>
-                <h3>
                   <a href="https://www.facebook.com/scottmacdonaldhughes">
                     Facebook
                   </a>
@@ -50,6 +47,11 @@ const AboutSection = ({
                 <h3>
                   <a href="https://www.youtube.com/channel/UC2l1PCGsL2OchtglYLpvWIw">
                     YouTube
+                  </a>
+                </h3>
+                <h3>
+                  <a href="https://drive.google.com/file/d/136bFA2wj-ZptQ_kPvlL0MgM3xNfHqHWp/view?usp=sharing">
+                    Download CV
                   </a>
                 </h3>
               </div>

@@ -5,12 +5,15 @@ import InfoCard from "components/elements/InfoCard";
 import greyAudi1 from "assets/greyaudi1.jpg";
 import greyAudi2 from "assets/greyaudi2.jpg";
 import greyAudi3 from "assets/greyaudi3.jpg";
+import audiTitle from "assets/audititle.jpg";
 
 const Audi = () => {
   return (
     <div className="portfolio-audi">
+      <div className="portfolio-audi__title">
+        <img src={audiTitle} alt="Working at IBM: Audi Digital Studio" />
+      </div>
       <div className="portfolio-audi__copy">
-        <h2> Working at IBM: Audi Digital Studio</h2>
         <p>
           Over the course of working at IBM, the project I was based on was the
           Audi Digital Studio. This project focused on creating new digital
