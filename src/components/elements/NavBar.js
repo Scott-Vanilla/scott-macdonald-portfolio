@@ -7,7 +7,7 @@ const NavBar = () => {
     <div>
       <div className="logo-banner">
         <Grid container spacing={12}>
-          <Grid item lg={12}><img id="logo" src={logoImage}/></Grid>
+          <Grid item lg={12}><a href="/scott-macdonald-portfolio/"><img id="logo" alt="calligraphy text logo saying scott macdonald" src={logoImage}/></a></Grid>
         </Grid>
       </div>
       <div className="navigation">
@@ -18,7 +18,7 @@ const NavBar = () => {
             <div className="nav-bar">
               <Tabs centered aria-label="navigation bar">
                 <Tab href={"/scott-macdonald-portfolio/"} label="Home" />
-                <Tab href={"/scott-macdonald-portfolio/#/audi"} label="Audi" />
+                <Tab href={"/scott-macdonald-portfolio/#/clients"} label="Clients" />
                 <Tab
                   href={"/scott-macdonald-portfolio/#/socials"}
                   label="Socials"

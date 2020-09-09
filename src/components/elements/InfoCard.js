@@ -2,7 +2,7 @@ import React from "react";
 
 import { Card, CardActionArea, CardMedia, CardContent, CardActions, Button } from "@material-ui/core"
 
-const InfoCard = ({ imageSrc, altText, copy, buttonText }) => {
+const InfoCard = ({ imageSrc, altText, copy, buttonText,url }) => {
 
     return (
         <Card>
@@ -20,7 +20,7 @@ const InfoCard = ({ imageSrc, altText, copy, buttonText }) => {
                 </CardContent>
             </CardActionArea>
             <CardActions>
-                <Button size="small" color="primary">
+                <Button href={url} size="small" color="primary">
                     {buttonText}
                 </Button>
             </CardActions>
