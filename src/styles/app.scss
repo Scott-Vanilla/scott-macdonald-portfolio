@@ -4,13 +4,25 @@ $mainLightGrey: #acafb3;
 $mainWhite: #fff;
 $mainBlue: #1179e0;
 
+.nav-bar{
+
+  border:1px solid black;
+
+}
+
+.logo-banner{
+
+  padding-bottom: 1rem;
+}
+
 .app {
   text-align: center;
 
   &__nav-bar{
 
-    margin-bottom: 1rem;
-    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    
 
 
   }
@@ -29,9 +41,8 @@ $mainBlue: #1179e0;
 .gradient-background{
 
 &__ui01{
-  background: #EECDA3;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+  background: rgb(206,128,252);
+  background: linear-gradient(90deg, rgba(206,128,252,1) 0%, rgba(251,195,255,1) 100%);
 }
 
 }
