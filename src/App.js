@@ -6,6 +6,7 @@ import Home from "components/pages/Home";
 import Audi from "components/pages/Audi";
 import Social from "components/pages/Social";
 import Projects from "components/pages/Projects";
+import Blog from "components/pages/Blog";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/about" component={Social}></Route>
           <Route path="/clients" component={Audi}></Route>
           <Route path="/projects" component={Projects}></Route>
+          <Route path="/blog" component={Blog}></Route>
         </Switch>
       </Router>
     </div>
