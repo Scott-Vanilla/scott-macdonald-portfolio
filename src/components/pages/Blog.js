@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid, Container } from "@material-ui/core";
 
-import BlogListItem from "components/elements/BlogListItem";
+import InfoCard from "components/elements/InfoCard";
 
 const Blog = () => {
 
@@ -12,10 +12,10 @@ return(
         <div className="portfolio-audi__card">
             <Grid container spacing={6}>
                 <Grid item xs={6} sm={6}>
-                    <BlogListItem />
+                    <InfoCard />
                  </Grid>
                 <Grid item xs={6} sm={6}>
-                    <BlogListItem />
+                    <InfoCard />
                 </Grid>
             </Grid>
         </div>
