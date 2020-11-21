@@ -12,7 +12,6 @@ const Projects = () => {
         <img src={underConstructionTitle} alt="Under Construction" />
       </div>
       <div className="portfolio-audi__copy"></div>
-     
     </div>
   );
 };
