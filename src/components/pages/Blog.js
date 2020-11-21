@@ -17,7 +17,7 @@ const Blog = () => {
                 copy="Project: Using NFC in a Smarthome (Planning)"
                 copy2="This short project of mine discusses the use of NFC in my smarthome. This particular post is the planning of this project."
                 buttonText="Read More ..."
-                url="audi.co.uk/part-exchange-calculator.html#/"
+                url=""
               />
             </Grid>
           </Grid>
