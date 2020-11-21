@@ -3,7 +3,7 @@ import { Switch, HashRouter as Router, Route } from "react-router-dom";
 import NavBar from "components/elements/NavBar";
 
 import Home from "components/pages/Home";
-import Audi from "components/pages/Audi";
+import Clients from "components/pages/Clients";
 import Social from "components/pages/Social";
 import Projects from "components/pages/Projects";
 import Blog from "components/pages/Blog";
@@ -18,7 +18,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home}></Route>
           <Route path="/about" component={Social}></Route>
-          <Route path="/clients" component={Audi}></Route>
+          <Route path="/clients" component={Clients}></Route>
           <Route path="/projects" component={Projects}></Route>
           <Route path="/blog" component={Blog}></Route>
         </Switch>

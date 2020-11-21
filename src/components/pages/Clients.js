@@ -7,7 +7,7 @@ import greyAudi2 from "assets/greyaudi2.jpg";
 import greyAudi3 from "assets/greyaudi3.jpg";
 import audiTitle from "assets/audititle.jpg";
 
-const Audi = () => {
+const Clients = () => {
   return (
     <div className="portfolio-audi">
       <div className="portfolio-audi__title">
@@ -60,4 +60,4 @@ const Audi = () => {
   );
 };
 
-export default Audi;
+export default Clients;
