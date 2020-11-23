@@ -7,6 +7,7 @@ import Clients from "components/pages/Clients";
 import Social from "components/pages/Social";
 import Projects from "components/pages/Projects";
 import Blog from "components/pages/Blog";
+import Post1 from "components/pages/blogposts/Post1";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/clients" component={Clients}></Route>
           <Route path="/projects" component={Projects}></Route>
           <Route path="/blog" component={Blog}></Route>
+          <Route path="/post1" component={Post1}></Route>
         </Switch>
       </Router>
     </div>
