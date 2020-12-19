@@ -5,10 +5,6 @@ const AboutSection = ({
   imgSrc,
   altText,
   title,
-  copy1,
-  copy2,
-  copy3,
-  isHome,
   isSocial,
 }) => {
   return (
@@ -24,13 +20,6 @@ const AboutSection = ({
         <Grid item sm={12}>
           <div className="about-section__copy">
             <h1> {title} </h1>
-            {isHome && (
-              <div>
-                <h3> {copy1} </h3>
-                <h3> {copy2} </h3>
-                <h3> {copy3} </h3>
-              </div>
-            )}
             {isSocial && (
               <div>
                 <h3>
