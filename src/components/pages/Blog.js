@@ -3,8 +3,7 @@ import { Grid, Container } from "@material-ui/core";
 import FadeIn from "react-fade-in";
 
 import InfoCard from "components/elements/InfoCard";
-import nfc1 from "assets/nfc1.png";
-import pi1 from "assets/pi1.png";
+import image3 from "assets/blog3.png";
 
 const Blog = () => {
   return (
@@ -14,23 +13,13 @@ const Blog = () => {
           <FadeIn delay={400} transitionDuration={800}>
             <Grid container spacing={6}>
               <Grid item xs={6} sm={6}>
-                <InfoCard
-                  imageSrc={nfc1}
+              <InfoCard
+                  imageSrc={image3}
                   altText="Man using his phone NFC"
-                  copy="Project: Using NFC in a Smarthome (Planning)"
-                  copy2="This short project of mine discusses the use of NFC in my smarthome. This particular post is the planning of this project."
+                  copy="Collaboration Project: Pokedex Single Page Application Using PokeAPI"
+                  copy2="This short project is the development of a pokedex SPA using the PokeAPI with friend and fellow developer Brandon Dawe (Github: Brandon-Wedon)."
                   buttonText="Read More ..."
-                  url="/scott-macdonald-portfolio/#/post1"
-                />
-              </Grid>
-              <Grid item xs={6} sm={6}>
-                <InfoCard
-                  imageSrc={pi1}
-                  altText="Creating a Retro Gaming Device using Raspberry Pi 2."
-                  copy="Creating a Retro Gaming Device using Raspberry Pi 2."
-                  copy2="This short project of mine discusses the creation of retro gaming emulation using a raspberry pi. This particular post is the planning of this project."
-                  buttonText="Read More ..."
-                  url="/scott-macdonald-portfolio/#/post2"
+                  url="/scott-macdonald-portfolio/#/post3"
                 />
               </Grid>
             </Grid>

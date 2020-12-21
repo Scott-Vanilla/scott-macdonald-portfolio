@@ -22,7 +22,7 @@ function App() {
           <Route path="/clients" component={Clients}></Route>
           <Route path="/projects" component={Projects}></Route>
           <Route path="/blog" component={Blog}></Route>
-          <Route path="/post1" component={Post1}></Route>
+          <Route path="/post3" component={Post1}></Route>
         </Switch>
       </Router>
     </div>
