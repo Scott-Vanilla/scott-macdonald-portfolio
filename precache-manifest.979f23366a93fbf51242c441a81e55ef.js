@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "173cbcc636b24c0583eb11c05e8c549b",
+    "revision": "060872a78f8efaf29c129012bdafaa47",
     "url": "/scott-macdonald-portfolio/index.html"
   },
   {
-    "revision": "e7c159860f5606604821",
+    "revision": "9bb8ecdab2572286d809",
     "url": "/scott-macdonald-portfolio/static/css/main.4efa0929.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/scott-macdonald-portfolio/static/js/2.0d38a67b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e7c159860f5606604821",
-    "url": "/scott-macdonald-portfolio/static/js/main.74303fd2.chunk.js"
+    "revision": "9bb8ecdab2572286d809",
+    "url": "/scott-macdonald-portfolio/static/js/main.2e587059.chunk.js"
   },
   {
     "revision": "6807f3d392a1f35a9f14",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dafdbe74135df0a4a71eee279693fd2b",
     "url": "/scott-macdonald-portfolio/static/media/banner.dafdbe74.png"
+  },
+  {
+    "revision": "fb1ae13845bbdca09666d8af5f225267",
+    "url": "/scott-macdonald-portfolio/static/media/blog3.fb1ae138.png"
   },
   {
     "revision": "60a01bb8f8a98e4100878f7d1dada375",
@@ -48,12 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/scott-macdonald-portfolio/static/media/logobanner1.bb1a3724.jpg"
   },
   {
-    "revision": "2a5fb662f320695bd14e4dabafd72346",
-    "url": "/scott-macdonald-portfolio/static/media/nfc1.2a5fb662.png"
-  },
-  {
-    "revision": "7fb1e765284f008577e5abdbce4f7395",
-    "url": "/scott-macdonald-portfolio/static/media/pi1.7fb1e765.png"
+    "revision": "aacf21b20c00baf9513bfae7128671b6",
+    "url": "/scott-macdonald-portfolio/static/media/pokemon1.aacf21b2.png"
   },
   {
     "revision": "e4571cef504f60bd886938300377f180",
