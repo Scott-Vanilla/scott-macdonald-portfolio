@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid } from "@material-ui/core";
+import { Grid, Button, ButtonGroup } from "@material-ui/core";
 
 const AboutSection = ({
   imgSrc,
@@ -21,29 +21,12 @@ const AboutSection = ({
           <div className="about-section__copy">
             <h1> {title} </h1>
             {isSocial && (
-              <div>
-                <h3>
-                  <a href="https://www.instagram.com/scottvanillamacdonald/">
-                    {" "}
-                    Instagram{" "}
-                  </a>
-                </h3>
-                <h3>
-                  <a href="https://www.facebook.com/scottmacdonaldhughes">
-                    Facebook
-                  </a>
-                </h3>
-                <h3>
-                  <a href="https://www.youtube.com/channel/UC2l1PCGsL2OchtglYLpvWIw">
-                    YouTube
-                  </a>
-                </h3>
-                <h3>
-                  <a href="https://drive.google.com/file/d/136bFA2wj-ZptQ_kPvlL0MgM3xNfHqHWp/view?usp=sharing">
-                    Download CV
-                  </a>
-                </h3>
-              </div>
+              <ButtonGroup orientation="vertical" aria-label="small outlined button group">
+              <Button href="https://www.instagram.com/scottvanillamacdonald/">Instagram</Button>
+              <Button href="https://www.facebook.com/scottmacdonaldhughes">Facebook</Button>
+              <Button href="https://www.youtube.com/channel/UC2l1PCGsL2OchtglYLpvWIw">Youtube</Button>
+              <Button href="https://drive.google.com/file/d/136bFA2wj-ZptQ_kPvlL0MgM3xNfHqHWp/view?usp=sharing">Download CV</Button>
+            </ButtonGroup>
             )}
           </div>
         </Grid>

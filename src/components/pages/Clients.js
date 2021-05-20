@@ -13,7 +13,7 @@ const Clients = () => {
     <div className="portfolio-audi">
       <FadeIn delay={400} transitionDuration={800}>
         <div className="portfolio-audi__title">
-          <img src={audiTitle} alt="Working at IBM: Audi Digital Studio" />
+        <img src={audiTitle} alt="Working at IBM: Audi Digital Studio" />
         </div>
         <div className="portfolio-audi__copy">
           <p>
