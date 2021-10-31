@@ -1,0 +1,19 @@
+.feature-box {
+    
+    position: relative;
+
+    &__link {
+      text-decoration: none;
+      color: black;
+    }
+    
+    &__overlay {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      padding: 5px;
+      background-color: white;
+      opacity: 60%;
+      border: 2px solid black;
+    }
+}

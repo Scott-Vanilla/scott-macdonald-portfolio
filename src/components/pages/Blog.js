@@ -16,8 +16,8 @@ const Blog = () => {
               <InfoCard
                   imageSrc={image3}
                   altText="Man using his phone NFC"
-                  copy="Collaboration Project: Pokedex Single Page Application Using PokeAPI"
-                  copy2="This short project is the development of a pokedex SPA using the PokeAPI with friend and fellow developer Brandon Dawe (Github: Brandon-Wedon)."
+                  copy="LJMU Dissertation - Covid-19 Tracking Web Application"
+                  copy2="Across the course of my final year in university, I embarked on a project to standardise pandemic tracking data through the use of a web-application."
                   buttonText="Read More ..."
                   url="/scott-macdonald-portfolio/#/post3"
                 />

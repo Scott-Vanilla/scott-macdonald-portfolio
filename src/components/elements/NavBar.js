@@ -21,10 +21,10 @@ const NavBar = () => {
                 <Tab href={"/scott-macdonald-portfolio/#/about"} label="About" />
                 <Tab href={"/scott-macdonald-portfolio/#/clients"} label="Clients" />
                 <Tab href={"/scott-macdonald-portfolio/#/blog"} label="Blog" />
-                {/*<Tab
+                <Tab
                   href={"/scott-macdonald-portfolio/#/projects"}
                   label="Projects"
-                /> */}
+                />
               </Tabs>
             </div>
           </Grid>
