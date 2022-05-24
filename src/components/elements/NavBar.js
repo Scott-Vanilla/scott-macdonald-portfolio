@@ -1,13 +1,21 @@
 import React from "react";
 import { Tab, Tabs, Grid } from "@material-ui/core";
-import logoImage from "assets/logobanner1.jpg"
+import logoImage from "assets/logobanner1.jpg";
 
 const NavBar = () => {
   return (
     <div>
       <div className="logo-banner">
         <Grid container spacing={12}>
-          <Grid item lg={12}><a href="/scott-macdonald-portfolio/"><img id="logo" alt="calligraphy text logo saying scott macdonald" src={logoImage}/></a></Grid>
+          <Grid item lg={12}>
+            <a href="/scott-macdonald-portfolio/">
+              <img
+                id="logo"
+                alt="calligraphy text logo saying scott macdonald"
+                src={logoImage}
+              />
+            </a>
+          </Grid>
         </Grid>
       </div>
       <div className="navigation">
@@ -18,13 +26,15 @@ const NavBar = () => {
             <div className="nav-bar">
               <Tabs centered aria-label="navigation bar">
                 <Tab href={"/scott-macdonald-portfolio/"} label="Home" />
-                <Tab href={"/scott-macdonald-portfolio/#/about"} label="About" />
-                <Tab href={"/scott-macdonald-portfolio/#/clients"} label="Clients" />
-                <Tab href={"/scott-macdonald-portfolio/#/blog"} label="Blog" />
                 <Tab
-                  href={"/scott-macdonald-portfolio/#/projects"}
-                  label="Projects"
+                  href={"/scott-macdonald-portfolio/#/about"}
+                  label="About"
                 />
+                <Tab
+                  href={"/scott-macdonald-portfolio/#/clients"}
+                  label="Clients"
+                />
+                {/* <Tab href={"/scott-macdonald-portfolio/#/blog"} label="Blog" /> */}
               </Tabs>
             </div>
           </Grid>

@@ -9,7 +9,10 @@ import {
   Button,
 } from "@material-ui/core";
 
-const InfoCard = ({ imageSrc, altText, copy, copy2, buttonText, url }) => {
+const InfoCard = (
+  { imageSrc, altText, copy, copy2, buttonText, url, dateCreated },
+  ...additionalProps
+) => {
   return (
     <Card>
       <CardActionArea>
@@ -22,6 +25,7 @@ const InfoCard = ({ imageSrc, altText, copy, copy2, buttonText, url }) => {
         <CardContent>
           <h2>{copy}</h2>
           {copy2 && <p>{copy2}</p>}
+          {dateCreated ? <p>Date Created: {dateCreated}</p> : null}
         </CardContent>
       </CardActionArea>
       <CardActions>

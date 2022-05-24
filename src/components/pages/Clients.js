@@ -6,25 +6,30 @@ import InfoCard from "components/elements/InfoCard";
 import greyAudi1 from "assets/greyaudi1.jpg";
 import greyAudi2 from "assets/greyaudi2.jpg";
 import greyAudi3 from "assets/greyaudi3.jpg";
-import audiTitle from "assets/audititle.jpg";
 
 const Clients = () => {
   return (
     <div className="portfolio-audi">
       <FadeIn delay={400} transitionDuration={800}>
         <div className="portfolio-audi__title">
-        <img src={audiTitle} alt="Working at IBM: Audi Digital Studio" />
+          <h2>Audi Digital Studio - An IBM Project</h2>
         </div>
-        <div className="portfolio-audi__copy">
-          <p>
-            Over the course of working at IBM, the project I was based on was
-            the Audi Digital Studio. This project focused on creating new
-            digital experiences for Audi customers. Over the course of my time
-            on this project I learnt React.js and plenty other languages (both
-            FE and BE). I also learnt how to work as part of a Scrum team and
-            work in an agile manner.
-          </p>
-        </div>
+        <Grid container>
+          <Grid item xs={6} sm={4} />
+          <Grid item xs={6} sm={4}>
+            <div className="portfolio-audi__copy">
+              <p>
+                Over the course of working at IBM, the project I was based on
+                was the Audi Digital Studio. This project focused on creating
+                new digital experiences for Audi customers. The project
+                primarily focused on React (both javascript and typescript),
+                however was also heavily featuring AWS Cloud Formation and
+                Architecture. Below are some example FE Web Applications I have
+                worked on which are now available to the public.
+              </p>
+            </div>
+          </Grid>
+        </Grid>
         <Container maxWidth="xl">
           <div className="portfolio-audi__card">
             <Grid container spacing={6}>
